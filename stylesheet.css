@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dolphijnheader {
+    height: 500px;
+    width: 60%;
+}
+
+#introtext {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally if needed */
+    width: 80%;
+    flex-direction: column;
+}
+
+.textcontainer {
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    margin-left: 20%; /* Center container horizontally relative to parent */
+    display: flex;
+    flex-direction: column; /* Ensure content flows vertically */
+    align-items: center; /* Center content horizontally within the container */
+    justify-content: flex-start; /* Align content to the top of the container */
+    padding-top: 20px; /* Optional: Add padding to ensure content is not flush with the top */
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    margin-bottom: 20px;
+}
+
+/* Optional styles for text within .textcontainer */
+.textcontainer p {
+    text-align: center; /* Center text horizontally within .textcontainer */
+}
