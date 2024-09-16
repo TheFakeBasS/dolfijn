@@ -5,6 +5,7 @@ body {
 
 .hero {
     background-color: black;
+    width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
@@ -12,8 +13,14 @@ body {
 }
 
 #dolphijnheader {
+    width: 60%; /* Adjust width of the image */
+    height: auto; /* Keep aspect ratio */
     height: 500px;
-    width: 60%;
+}
+
+/* On hover, swap the static image with the animated GIF */
+#dolphijnheader:hover {
+    content: url('dolphin-10682.gif'); /* Animated GIF on hover */
 }
 
 #introtext {

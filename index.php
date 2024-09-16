@@ -8,7 +8,7 @@
 </head>
     <?php include 'navbar.php'; ?>
     <header class="hero">
-        <img src="dolphijnheader.png" alt="Hero" id="dolphijnheader">
+    <img src="dolphin.static.png" alt="Hero" id="dolphijnheader">
     </header>
 
     <div class="textcontainer">
