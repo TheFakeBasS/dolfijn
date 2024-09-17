@@ -1,5 +1,5 @@
 # De Dolfijn
-Project van 2 weken vvoor een website over doplhijn
+Project van 2 weken voor een website over doplhijn
 
 
 # Bronnen fotos
