@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: lightgray;
 }
 
 .hero {
@@ -13,20 +14,20 @@ body {
 }
 
 #dolphijnheader {
-    width: 60%; /* Adjust width of the image */
-    height: auto; /* Keep aspect ratio */
+    width: 60%;
+    height: auto;
     height: 500px;
 }
 
-/* On hover, swap the static image with the animated GIF */
+/* On hover, verwissel de static afbeelding met de gif varienant */
 #dolphijnheader:hover {
-    content: url('dolphin-10682.gif'); /* Animated GIF on hover */
+    content: url('dolphin-10682.gif');
 }
 
 #introtext {
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally if needed */
+    align-items: center;
+    justify-content: center; 
     width: 80%;
     flex-direction: column;
 }
@@ -35,12 +36,12 @@ body {
     width: 60%;
     height: 400px;
     background-color: white;
-    margin-left: 20%; /* Center container horizontally relative to parent */
+    margin-left: 20%;
     display: flex;
-    flex-direction: column; /* Ensure content flows vertically */
-    align-items: center; /* Center content horizontally within the container */
-    justify-content: flex-start; /* Align content to the top of the container */
-    padding-top: 20px; /* Optional: Add padding to ensure content is not flush with the top */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
     margin-bottom: 20px;
@@ -49,4 +50,47 @@ body {
 /* Optional styles for text within .textcontainer */
 .textcontainer p {
     text-align: center; /* Center text horizontally within .textcontainer */
+}
+
+
+.Afbeeldingcontainers {
+    width: 100%;
+    height: 820px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkplaatjes {
+    width: 60%; /* Keep the container at 60% width */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap */
+    gap: 10px; /* Adds gap between images */
+}
+
+.image-wrapper {
+    position: relative;
+    width: calc(50% - 5px); /* Each image takes up 50% minus half the gap */
+    height: 410px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.384); /* Semi-transparent background */
+    padding: 5px 10px;
+    border-radius: 5px;
 }
