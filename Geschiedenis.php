@@ -28,9 +28,22 @@
             </div>
         </div>
         <div class="image-right">
-        <img src="dolphin-historypage( 2).jpg" alt="" id="right-image">
+            <img src="dolphin-historypage( 2).jpg" alt="" id="right-image">
         </div>
     </div>
+    <div class="combirow combireverse">
+        <div class="text-left">
+            <div class="content">
+                <h1>Vroege Fossielen en Ontdekkingen</h1>
+                Fossiele ontdekkingen in regio’s zoals Egypte en Pakistan bieden belangrijke inzichten in de overgang van land- naar zeedieren. Fossielen van vroegere walvisachtigen, waaronder de proto-walvis Pakicetus, suggereren dat de evolutie van walvisachtigen begon in de ondiepe zeeën van het huidige Zuid-Azië. Vroege dolfijnen, zoals Squalodon, zijn gedateerd op ongeveer 15 miljoen jaar geleden en vertonen al kenmerken zoals scherpe tanden en een langwerpige snuit, wat suggereert dat dolfijnen vanaf dat moment op weg waren om succesvolle roofdieren te worden.
+            </div>
+        </div>
+        <div class="image-left">
+            <img src="dolfijn-fossiel.jpg" alt="" id="left-image">
+        </div>
+    </div>
+    <?php include 'footer.php'; ?>
+
 </body>
 
 </html>

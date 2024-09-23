@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: lightgray;
 }
 
 .hero {
@@ -59,10 +60,11 @@ body {
 .combirow {
     display: flex;
     align-items: center;
+    margin: 20px 0 20px;
 }
 
 .text-left {
-    width: 60%;
+    width: 70%;
     height: auto;
     background-color: white;
     /* margin-left: 20%;  */
@@ -87,14 +89,25 @@ body {
 #right-image {
     border-radius: 20px 0 0 20px;
 }
+
+#left-image {
+    border-radius: 0 20px 20px 0;
+}
+
 .image-right {
-    /* background-color: black; */
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: right;
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    /* align-items: center; */
-    /* justify-content: center; */
+}
+
+.image-left {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+}
+.combireverse {
+    flex-direction: row-reverse;
 }
 
