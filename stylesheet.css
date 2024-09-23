@@ -69,8 +69,8 @@ body {
 .Afbeeldingcontainers {
     width: 100%;
     height: 820px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
 }
