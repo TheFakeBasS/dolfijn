@@ -13,29 +13,36 @@
 
     <div class="textcontainer">
     <div id="introtext">
-        <h1>Intro Dolphijn</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloremque laboriosam consequuntur sed minus suscipit vero! Ex, vitae laborum repudiandae laudantium quis, voluptatum assumenda minima incidunt quos, veritatis qui adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ex id ipsa quibusdam neque cum, quidem nam tempora quo impedit magni illum, reprehenderit maiores? Ullam, temporibus unde. Ea, fugit Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus in obcaecati esse fugiat laborum aliquid, aspernatur, sequi autem necessitatibus dolorem dolores blanditiis ipsum vero et dolore, voluptate repellendus! Natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ut perspiciatis saepe iste quia cupiditate vel, veritatis dolore suscipit nam, nesciunt, voluptates est. Minus vitae sint sit dolores corrupti at.
+        <h1>Intro Dolfijn</h1>
+        Dolfijnen zijn fascinerende zeezoogdieren, bekend om hun intelligentie, sociale gedrag en bijzondere communicatie. Ze behoren tot de tandwalvissen (Odontoceti) en er zijn meer dan 40 soorten, zoals de bekende tuimelaar. <br><br>
+        <ul>
+            <li>Habitat: Dolfijnen leven in oceanen wereldwijd, en sommige soorten ook in rivieren.</li><br>
+            <li>Communicatie: Ze maken gebruik van klikgeluiden, fluitjes en lichaamstaal om met elkaar te communiceren en echolocatie om te navigeren en prooien te vinden.</li><br>
+            <li>Sociale structuren: Deze dieren leven in groepen, scholen genoemd, en vertonen een sterk sociaal gedrag.</li><br>
+            <li>Voeding: Hun dieet bestaat voornamelijk uit vis, inktvis en andere kleine zeeorganismen.</li><br>
+        </ul>
+         Dankzij hun hoge intelligentie en speelse aard hebben dolfijnen een speciale band met mensen en worden ze vaak bestudeerd voor onderzoek naar dierlijke  cognitie. Hun interactie met mensen, zoals zwemmen of het samenwerken met vissers, draagt bij aan hun populariteit.
     </div>
 </div>
 
 <div class="Afbeeldingcontainers">
     <div class="linkplaatjes">
-        <div class="image-wrapper">
+        <a href="Algemeneinformatie.php" class="image-wrapper">
             <img src="DolphinAlgemeen.png" alt="Algemeen">
             <div class="text-overlay">Algemeen</div>
-        </div>
-        <div class="image-wrapper">
+        </a>
+        <a href="Geschiedenis.php" class="image-wrapper"> 
             <img src="dolphijnheader.png" alt="Geschiedenis">
             <div class="text-overlay">Geschiedenis</div>
-        </div>
-        <div class="image-wrapper">
-            <img src="dolphin.static.png" alt="Leefgebied">
+        </a>
+        <a href="Leefgebieden.php" class="image-wrapper">
+            <img src="tweedolfijn.jpg" alt="Leefgebied">
             <div class="text-overlay">Leefgebied</div>
-        </div>
-        <div class="image-wrapper">
+        </a>
+        <a href="Activiteiten.php" class="image-wrapper">
             <img src="22b488357d0e769f35e18d0cf22e2018-1877-dubai-dubai-dolphinarium-tickets--swimming-with-dolphins-10.avif" alt="">
-            <div class="text-overlay">Dolphin Interaction</div>
-        </div>
+            <div class="text-overlay">Activiteiten</div>
+        </a>
     </div>
 </div>
 

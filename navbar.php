@@ -4,12 +4,12 @@
         <img src="dolphin.png" alt="Logo">
         <a>Dolphien</a>
     </div>
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="Algemeneinformatie.php">Algemeen</a></li>
-        <li><a href="Geschiedenis.php">Geschiedenis</a></li>
-        <li><a href="Leefgebieden.php">Leefgebieden</a></li>
-        <li><a href="Activiteiten.php">Activiteiten</a></li>
+    <ul class="navdolfijnenwrapper">
+        <li class="navdolfijnen"><a href="index.php">Home</a></li>
+        <li class="navdolfijnen"><a href="Algemeneinformatie.php">Algemeen</a></li>
+        <li class="navdolfijnen"><a href="Geschiedenis.php">Geschiedenis</a></li>
+        <li class="navdolfijnen"><a href="Leefgebieden.php">Leefgebieden</a></li>
+        <li class="navdolfijnen"><a href="Activiteiten.php">Activiteiten</a></li>
     </ul>
 </nav>
 
@@ -33,7 +33,7 @@
             height: 60px;
         }
 
-        ul {
+    .navdolfijnenwrapper {
             margin: 0;
             padding: 0;
             display: flex;
@@ -42,14 +42,14 @@
             align-items: center;
         }
 
-        li {
+        .navdolfijnen {
             margin-left: 10px;
             margin-right: 50px;
             display: flex;
             align-items: center;
         }
 
-        li::before {
+        .navdolfijnen::before {
             content: "";
             display: inline-block;
             width: 30px;
