@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php //include 'navbar.php'; ?>
     <header class="hero">
         <h1 class="page-title">De Geschiedenis van de dolfijn</h1>
         <img src="dolphin-historypage(1).jpg" alt="" id="dolphijnheader">
