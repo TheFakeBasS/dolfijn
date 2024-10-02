@@ -4,7 +4,7 @@
         <img src="dolphin.png" alt="Logo">
         <a>Dolphien</a>
     </div>
-    <div class="dropdown" onclick="toggleMenu()">
+    <div class="hamburger" onclick="toggleMenu()">
         &#9776;
     </div>
     <ul class="navdolfijnenwrapper">
@@ -53,6 +53,7 @@
     }
 
     .navdolfijnen::before {
+        content: "";
         display: inline-block;
         width: 30px;
         height: 30px;
@@ -67,15 +68,16 @@
         font-size: larger;
     }
 
-    .dropdown {
+    /* Hamburger menu (hidden by default) */
+    .hamburger {
         display: none;
         font-size: 30px;
         cursor: pointer;
         color: white;
     }
 
-    /* Mobile */
-    @media (max-width: 425px) {
+    /* Mobile Styles */
+    @media (max-width: 768px) {
         .navdolfijnenwrapper {
             display: none;
             flex-direction: column;
@@ -91,7 +93,7 @@
             margin: 15px 0;
         }
 
-        .dropdown {
+        .hamburger {
             display: block;
         }
 
