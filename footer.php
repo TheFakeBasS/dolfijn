@@ -55,4 +55,24 @@
     footer a {
         color: #fff;
     }
+
+    ul {
+        padding: 0;
+    }
+
+    @media (max-width: 375px) {
+        footer {
+            flex-direction: column;
+            gap: 25px;
+        }
+        ul {
+            align-items: center;
+        }
+        .contact {
+            align-items: center;
+        }
+        .madeby {
+            align-items: center;
+        }
+    }
 </style>
