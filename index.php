@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <title>Dolphijn website</title>
+    <title>Dolfijn website</title>
 </head>
     <?php include 'navbar.php'; ?>
     <header class="hero">
