@@ -123,5 +123,43 @@ body {
 
 
 @media (max-width: 425px) {
-    
+    .hero {
+        height: 189px;
+    }
+
+    #dolphijnheader {
+        height: auto;
+        width: 90vw; /* Make the image take full width on small screens */
+    }
+
+    .textcontainer {
+        width: 90vw; /* Override the width to make it responsive */
+        max-width: 90vw; /* Make sure it doesn't exceed 100% on small screens */
+        margin-left: 5vw; /* Remove the left margin to center the container */
+        
+    }
+
+    .textcontainer p {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
+    .Afbeeldingcontainers {
+        margin-top: 80px;
+        height: 930px;
+    }
+
+    .linkplaatjes {
+        width: 90vw;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .image-wrapper {
+        position: relative;
+        width: calc(100% - 5px); /* Each image takes up 50% minus half the gap */
+        height: 250px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
 }
